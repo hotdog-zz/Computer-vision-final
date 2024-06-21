@@ -5,7 +5,7 @@
 ## 基础设置
 
 1. 根据[https://mmdetection.readthedocs.io/en/latest/get_started.html](https://mmpretrain.readthedocs.io/en/latest/get_started.html#installation) 配置虚拟环境，并自行安装tensorboard。
-2. 从http://www.cs.toronto.edu/~kriz/cifar.html下载CIFAR-100数据集，并按照https://mmpretrain.readthedocs.io/en/latest/user_guides/dataset_prepare.html解压并存放数据集。
+2. 从http://www.cs.toronto.edu/~kriz/cifar.html 下载CIFAR-100数据集，并按照 https://mmpretrain.readthedocs.io/en/latest/user_guides/dataset_prepare.html 解压并存放数据集。
 
 ## 训练
 
