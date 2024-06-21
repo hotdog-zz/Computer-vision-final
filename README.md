@@ -4,12 +4,12 @@
 
 ## 基础设置
 
-1. 根据[https://mmdetection.readthedocs.io/en/latest/get_started.html](https://mmpretrain.readthedocs.io/en/latest/get_started.html#installation) 配置虚拟环境，并自行安装tensorboard。
+1. 根据[https://mmpretrain.readthedocs.io/en/latest/get_started.html#installation](https://mmpretrain.readthedocs.io/en/latest/get_started.html#installation) 配置虚拟环境，并自行安装tensorboard。
 2. 从http://www.cs.toronto.edu/~kriz/cifar.html 下载CIFAR-100数据集，并按照 https://mmpretrain.readthedocs.io/en/latest/user_guides/dataset_prepare.html 解压并存放数据集。
 
 ## 训练
 
-在config文件夹中包含了两个模型的的config文件，可直接通过mmpretrain方式进行训练，可参考如下代码，更多细节参考[https://mmdetection.readthedocs.io/en/latest/user_guides/dataset_prepare.html](https://mmpretrain.readthedocs.io/en/latest/user_guides/train.html)
+在config文件夹中包含了两个模型的的config文件，可直接通过mmpretrain方式进行训练，可参考如下代码，更多细节参考[https:/mmpretrain.readthedocs.io/en/latest/user_guides/train.html](https://mmpretrain.readthedocs.io/en/latest/user_guides/train.html)
 
 `
 python tools/train.py ${CONFIG_FILE}
@@ -19,7 +19,7 @@ python tools/train.py ${CONFIG_FILE}
 
 ## 测试
 
-将google drive中weight文件夹内权重下载后可直接通过mmpretrain方式进行测试，可参考如下代码，更多细节参考[https://mmdetection.readthedocs.io/en/latest/user_guides/test.html](https://mmpretrain.readthedocs.io/en/latest/user_guides/test.html)
+将google drive中weight文件夹内权重下载后可直接通过mmpretrain方式进行测试，可参考如下代码，更多细节参考[https://mmpretrain.readthedocs.io/en/latest/user_guides/test.html](https://mmpretrain.readthedocs.io/en/latest/user_guides/test.html)
 
 `
 python tools/test.py ${CONFIG_FILE} ${CHECKPOINT_FILE}
